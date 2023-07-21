@@ -1,0 +1,52 @@
+.logo {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.logo-img {
+    margin-right: 10px;
+}
+
+h1 {
+    /* insert fonts here and font size */
+}
+
+.social-media nav {
+    display: flex;
+    justify-content: end;
+}
+
+.social-media nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: right;
+}
+
+.social-media nav ul li {
+    margin-left: 10px;
+    align-items: right;
+}
+
+.recipe-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+
+/* div {
+    display: flex;
+    border: 2px solid blue;
+    padding: 20px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    justify-content: center;
+    align-items: center;
+} */
+
