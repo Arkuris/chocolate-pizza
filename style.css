@@ -1,0 +1,144 @@
+/* * {
+    box-sizing: border-box;
+} */
+
+body {
+    width: 906px;
+}
+
+html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    padding: 20px 0;
+    width: 906px;
+}
+
+main {
+    width: 906px;
+    margin: 0 auto;
+}
+
+.logo-img {
+    margin-right: 10px;
+}
+
+.title-wrapper {
+    flex: 1;
+    margin-top: 7px;
+}
+
+.social-media nav ul {
+    list-style: none;
+    margin-top: 15px;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-media nav ul li {
+    margin-left: 10px;
+}
+
+.logo {
+    display: flex;
+}
+
+.print-button {
+    float: right;
+}
+
+.top-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.sharebutton {
+    margin-left: auto;
+}
+
+.recipe-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.recipe-description {
+    text-align: center;
+    margin: 20px;
+}
+
+.ingredients {
+    display: flex;
+    justify-content: center;
+}
+
+.part-1,
+.part-2 {
+    flex: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.part-1 ul,
+.part-2 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.part-1 li,
+.part-2 li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: left;
+    width: 906px;
+}
+
+.author-img {
+    width: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.author-name {
+    /* Insert font family and size here */
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.author-info {
+    /* Insert font family and size here */
+    align-self: flex-end;
+    margin-left: 20px;
+}
+
+.author-footer {
+    display: flex;
+    align-items: center;
+}
+
+.author-details {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+  
+.copywrite {
+    text-align: center;
+}
+
+.social-media nav ul {
+    justify-content: center;
+}
+
+.ingredients {
+    flex-direction: column;
+}
